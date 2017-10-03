@@ -71,7 +71,7 @@ var server = http.createServer(function (req, res) {
     var partialend = parts[1];
 
     var start = parseInt(partialstart, 10);
-    var end = partialend ? parseInt(partialend, 10) : total-1;
+    var end = partialend ? parseInt(partialend, 10) : video_total-1;
     var chunksize = (end - start) + 1;
     // clivas.line('RANGE: ' + start + ' - ' + end + ' = ' + chunksize);
 
