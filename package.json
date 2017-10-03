@@ -1,6 +1,6 @@
 {
   "name": "dlnast",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "send your videos to your DLNA devices",
   "main": "index.js",
   "bin": {
@@ -11,17 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iovis9/dlnast.git"
+    "url": "git+https://github.com/milankragujevic/dlnast.git"
   },
   "keywords": [
     "dlna"
   ],
-  "author": "David Marchante <davidmarchan@gmail.com> (https://github.com/iovis9)",
+  "author": "David Marchante, Milan Kragujevic",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iovis9/dlnast/issues"
+    "url": "https://github.com/milankragujevic/dlnast/issues"
   },
-  "homepage": "https://github.com/iovis9/dlnast#readme",
+  "homepage": "https://github.com/milankragujevic/dlnast#readme",
   "dependencies": {
     "clivas": "^0.2.0",
     "glob": "^7.0.3",
